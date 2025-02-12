@@ -10,7 +10,7 @@ namespace CloneClientMappingPlugin.DataverseObjects
     {
         public string EmployeeMaster { get; set; }
 
-        public string EmployeeCode { get; set; }
+      
 
         public string EmployeeIdentification { get; set; }
     }
