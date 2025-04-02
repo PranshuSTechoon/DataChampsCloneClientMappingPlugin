@@ -1,0 +1,34 @@
+<fetch count="5000" page="1">
+  <entity name="sam_studentbooking">
+    <attribute name="sam_schedule" />
+    <attribute name="sam_studentbookingid" />
+    <attribute name="sam_sql_lessonstudentid" />
+    <attribute name="sam_workshop" />
+    <attribute name="sam_workshopstatus" />
+    <attribute name="sam_employerconfirmed" />
+    <attribute name="sam_employercontacted" />
+    <attribute name="sam_studentconfirmed" />
+    <attribute name="sam_studentcontacted" />
+    <link-entity name="sam_workshop" from="sam_workshopid" to="sam_workshop" link-type="inner" alias="Studentbooking">
+      <attribute name="sam_name" />
+      <filter>
+        <condition attribute="sam_name" operator="ends-with" value="20" />
+      </filter>
+    </link-entity>
+    <link-entity name="contact" from="contactid" to="sam_student" link-type="inner" alias="Contact">
+      <attribute name="fullname" />
+      <attribute name="sam_sql_contactsqlid" />
+    </link-entity>
+    <link-entity name="sam_workshopschedule" from="sam_workshopscheduleid" to="sam_schedule" link-type="inner" alias="WorkshopSchedule">
+      <attribute name="sam_name" />
+    </link-entity>
+    <link-entity name="stringmap" from="attributevalue" to="sam_workshopstatus" link-type="inner" alias="WorkshopStatusLabel">
+      <attribute name="value" alias="sam_workshopstatus_label" />
+      <filter>
+        <condition attribute="attributename" operator="eq" value="sam_workshopstatus" />
+        <condition attribute="objecttypecode" operator="eq" value="11213" />
+      </filter>
+    </link-entity>
+    <link-entity name="duplicaterecord" from="baserecordid" to="sam_studentbookingid" />
+  </entity>
+</fetch>

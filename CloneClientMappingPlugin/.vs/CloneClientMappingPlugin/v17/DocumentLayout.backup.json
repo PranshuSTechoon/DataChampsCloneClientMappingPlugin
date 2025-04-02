@@ -1,10 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Techoon\\Documents\\GitHub\\CloneClientMappingPlugin\\",
+  "WorkspaceRootPath": "C:\\Users\\Techoon\\Documents\\GitHub\\DataChampsCloneClientMappingPlugin\\CloneClientMappingPlugin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{492BD77F-11CA-4569-B89B-87B8AB9DFFF0}|CloneClientMappingPlugin.csproj|c:\\users\\techoon\\documents\\github\\cloneclientmappingplugin\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{492BD77F-11CA-4569-B89B-87B8AB9DFFF0}|CloneClientMappingPlugin.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{492BD77F-11CA-4569-B89B-87B8AB9DFFF0}|CloneClientMappingPlugin.csproj|C:\\Users\\Techoon\\Documents\\GitHub\\DataChampsCloneClientMappingPlugin\\CloneClientMappingPlugin\\cloneclientmappingplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492BD77F-11CA-4569-B89B-87B8AB9DFFF0}|CloneClientMappingPlugin.csproj|solutionrelative:cloneclientmappingplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492BD77F-11CA-4569-B89B-87B8AB9DFFF0}|CloneClientMappingPlugin.csproj|C:\\Users\\Techoon\\Documents\\GitHub\\DataChampsCloneClientMappingPlugin\\CloneClientMappingPlugin\\dataverseobjects\\verifiedemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492BD77F-11CA-4569-B89B-87B8AB9DFFF0}|CloneClientMappingPlugin.csproj|solutionrelative:dataverseobjects\\verifiedemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|CloneClientMappingPlugin||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492BD77F-11CA-4569-B89B-87B8AB9DFFF0}|CloneClientMappingPlugin.csproj|c:\\users\\techoon\\documents\\github\\datachampscloneclientmappingplugin\\cloneclientmappingplugin\\dataverseobjects\\employeemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492BD77F-11CA-4569-B89B-87B8AB9DFFF0}|CloneClientMappingPlugin.csproj|solutionrelative:dataverseobjects\\employeemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492BD77F-11CA-4569-B89B-87B8AB9DFFF0}|CloneClientMappingPlugin.csproj|c:\\users\\techoon\\documents\\github\\datachampscloneclientmappingplugin\\cloneclientmappingplugin\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|f8d6553f-f752-4dbf-acb6-f291b744a792"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +28,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CloneClientMappingPlugin",
+              "DocumentMoniker": "C:\\Users\\Techoon\\Documents\\GitHub\\DataChampsCloneClientMappingPlugin\\CloneClientMappingPlugin\\CloneClientMappingPlugin.csproj",
+              "RelativeDocumentMoniker": "CloneClientMappingPlugin.csproj",
+              "ToolTip": "C:\\Users\\Techoon\\Documents\\GitHub\\DataChampsCloneClientMappingPlugin\\CloneClientMappingPlugin\\CloneClientMappingPlugin.csproj",
+              "RelativeToolTip": "CloneClientMappingPlugin.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-13T03:59:24.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeMaster.cs",
+              "DocumentMoniker": "C:\\Users\\Techoon\\Documents\\GitHub\\DataChampsCloneClientMappingPlugin\\CloneClientMappingPlugin\\DataverseObjects\\EmployeeMaster.cs",
+              "RelativeDocumentMoniker": "DataverseObjects\\EmployeeMaster.cs",
+              "ToolTip": "C:\\Users\\Techoon\\Documents\\GitHub\\DataChampsCloneClientMappingPlugin\\CloneClientMappingPlugin\\DataverseObjects\\EmployeeMaster.cs",
+              "RelativeToolTip": "DataverseObjects\\EmployeeMaster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T03:49:25.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VerifiedEmployees.cs",
+              "DocumentMoniker": "C:\\Users\\Techoon\\Documents\\GitHub\\DataChampsCloneClientMappingPlugin\\CloneClientMappingPlugin\\DataverseObjects\\VerifiedEmployees.cs",
+              "RelativeDocumentMoniker": "DataverseObjects\\VerifiedEmployees.cs",
+              "ToolTip": "C:\\Users\\Techoon\\Documents\\GitHub\\DataChampsCloneClientMappingPlugin\\CloneClientMappingPlugin\\DataverseObjects\\VerifiedEmployees.cs",
+              "RelativeToolTip": "DataverseObjects\\VerifiedEmployees.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T03:49:04.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Techoon\\Documents\\GitHub\\CloneClientMappingPlugin\\Class1.cs",
-              "RelativeDocumentMoniker": "Class1.cs",
-              "ToolTip": "C:\\Users\\Techoon\\Documents\\GitHub\\CloneClientMappingPlugin\\Class1.cs",
-              "RelativeToolTip": "Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CloneClientMappingPlugin.cs",
+              "DocumentMoniker": "C:\\Users\\Techoon\\Documents\\GitHub\\DataChampsCloneClientMappingPlugin\\CloneClientMappingPlugin\\CloneClientMappingPlugin.cs",
+              "RelativeDocumentMoniker": "CloneClientMappingPlugin.cs",
+              "ToolTip": "C:\\Users\\Techoon\\Documents\\GitHub\\DataChampsCloneClientMappingPlugin\\CloneClientMappingPlugin\\CloneClientMappingPlugin.cs",
+              "RelativeToolTip": "CloneClientMappingPlugin.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAuwDIAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T03:45:58.282Z",
               "EditorCaption": ""
